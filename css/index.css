@@ -185,25 +185,13 @@ header a:hover {
     background-color: white;
     box-shadow: 1px 5px 0 0 rgba(0,0,0,.55);
 }
-
-/*  debate on the right(third debate) */
-
-.debates3 {
-    width: 33%;
-    float: right;
-    height: 410px;
-    border-radius: 15px;
-    background-color: white;
-    margin-bottom: 30px;
-}
-
 .debates-content {
     width: 80%;
     padding: 20px 0 20px 0;
     margin: auto;
 }
 
-.debates1 img, .debates2 img, .debates3 img {
+.debates1 img{
     width: 100px;
 }
 

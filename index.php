@@ -54,7 +54,7 @@
                     <p>Top Trending Hashtags</p>
                 </div>
                 <div class="trendinghashtags">
-                    <button> #Hashtag1</button>
+                    <button class="hashtags"> #Hashtag1</button>
                     <button> #Hashtag2</button>
                     <button> #Hashtag3</button>
                     <button> #Hashtag4</button>
@@ -74,9 +74,9 @@
 
 <center>
     <div class="main_div">
-    <?php  for($i=0; $i<15; $i++){ ?>
-                    <div class="debates-div">
-                        <div class="debates1">
+    <?php  for($i=0; $i<20; $i++){ ?>
+        <a href="chatbox.php">  <div class="debates-div">
+                       <div class="debates1">
                             <div class="debates-content">
                                 <div class="debates-left">
                                     <div class="debates-left--left">
@@ -119,8 +119,10 @@
                                     </div>
                                 </div>
                             </div>
-    </div>
+                        
+                    </div>
             </div>
+            </a>
 
     <?php } ?> 
     </div>

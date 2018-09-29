@@ -28,16 +28,16 @@
                 <form >
                 <div class="form-input">
                     <input class="login-input" type="email" class="form-links" placeholder="Enter e-mail here" /><br>
-                    <input class="login-input" type="password" placeholder="Enter password here" required /><br>
+                    <input class="login-input" type="password" placeholder="Enter password here"  /><br>
                     </div>
                     <div class="lower-form" style="margin:10px">
                             <input id="checkbox--remember-me" type="checkbox" name="rememberMe" value="Remember Me">
-                                <label for="checkbox--remember-me" style="height:2px;">
+                                <label for="checkbox--remember-me" style="height:24px; width:137px; margin-left:-1rem;">
                                     Remember Me
                                 </label>
                             <a href="#" id="forgot-password" class="form-links">Forgot Password?</a><br>
                     </div>
-                    <button class="form-login-btn" type="submit">Login</button><br>
+                   <button class="form-login-btn" type="submit"> Login</button><br>
                     <div style="margin:5px;">
                         <a href="#" id="create-account" class="form-links">Create an account</a>
                     </div>
