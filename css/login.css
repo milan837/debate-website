@@ -1,0 +1,162 @@
+@font-face {
+    src: url('./fonts/Nunito-Regular.ttf');
+    font-family: nun-reg;
+}
+
+* {
+    font-family: nun-reg;
+    outline: none;
+    word-wrap: break-word;
+}
+
+.container {
+    padding: 10px 1.6rem 0 0;
+    margin: 1px 3px 0 28px;
+}
+
+body {
+    background: linear-gradient(to right, #4e4376, #2b5876);
+}
+
+a {
+    text-decoration: none;
+}
+#checkbox--remember-me{
+    margin-left:-55%;
+}
+
+.login-form {
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 1px 1px;
+    width: 25rem;
+    margin-top: 6%;
+    margin-left: 20%;
+    border-radius: 5px;
+    text-align: center;
+    background: whitesmoke;
+}
+@media(max-width:450px){
+    .login-form{
+        margin-left:auto;
+        margin-bottom: 10px;
+        margin-top: 16%;
+    }
+}
+.login-form #fb-login-btn {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background-color: #2951a5;
+    padding: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+}
+
+.login-form #fb-login-btn:hover {
+    transition: background .2s ease, color .2s ease;
+    background: rgb(3, 80, 247);
+    box-shadow: 1px black;
+}
+
+.form-links {
+    color: #006DF0;
+}
+
+.form-links:hover {
+    color: rgb(14, 82, 165);
+    transition: background .2s ease, color .2s ease;
+}
+
+.login-input {
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 12px -50px 0 0;
+    margin: 0.6rem 22px 8px 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+}
+
+#forgot-password {
+    color: #006DF0;
+    margin: 10px 0 0 194px;
+}
+
+#forgot-password:hover {
+    color: rgb(9, 63, 129);
+    transition: background .2s ease, color .2s ease;
+}
+
+.form-login-btn {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    margin: 13px 8px 10px 5px;
+    background-color: #b93b32;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+}
+
+.form-login-btn:hover {
+    transition: background .2s ease, color .2s ease;
+    background-color: #dd493e;
+}
+
+#create-account {
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+    color: #006DF0;
+}
+
+#create-account:hover {
+    color: rgb(8, 60, 124);
+    transition: background .2s ease, color .2s ease;
+}
+
+
+/* checkbox */
+
+input[type=checkbox]+label {
+    display: block;
+    margin-left: -200px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label:before {
+    content: '\2714';
+    border: 0.1rem solid black;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding: 0 0 0.3em 0.1em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: 0.2s;
+}
+
+input[type=checkbox]+label:active:before {
+    transform: scale(0);
+}
+
+input[type=checkbox]:checked+label:before {
+    background-color: rgb(9, 63, 129);;
+    color: white;
+    border-color: rgb(9, 63, 129);;
+}
+.checkbox--remember-me{
+    
+    height: 3px;
+    padding-right: 18px;
+    margin-top: 0px;
+
+}

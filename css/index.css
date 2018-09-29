@@ -1,1 +1,291 @@
-/*index css*/
+@font-face {
+    src: url(./fonts/Nunito-Regular.ttf);
+    font-family: nun-reg;
+}
+
+input, button:focus {
+    outline: none;
+}
+
+* {
+    font-family: nun-reg;
+}
+
+body {
+    margin: auto;
+}
+/* div for debates */
+.main_div {
+    margin-top: 10px;
+    width: 1200px;
+    min-height: 500px;
+}
+
+/* for all buttons */
+button {
+    cursor: pointer;
+}
+
+header h3 {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+header a:hover {
+    color: yellow;
+    transition: background 0.2s ease-in, color 0.2s ease;
+}
+
+.header--left {
+    width: 75%;
+    float: left;
+}
+
+.header--right {
+    width: 25%;
+    float: right;
+    padding: 20px 0 24px 0;
+}
+
+.header--left-left {
+    width: 10%;
+    float: left;
+}
+
+.header--left-right {
+    width: 90%;
+    float: right;
+}
+
+.categories li {
+    display: block;
+    float: left;
+    margin: 28px;
+}
+
+.header--right .search-div {
+    width: 75%;
+    float: left;
+}
+
+.header--right .user-div {
+    width: 25%;
+    float: right;
+}
+
+.header--right button {
+    border: none;
+    background: none;
+    margin-top: 10px;
+}
+
+.header--right input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.trending-main {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    margin: auto;
+}
+
+.trending {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.trendinghashtags button {
+    font-weight: bold;
+    margin: 8px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid snow;
+    background: none;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.trendinghashtags button:hover {
+    border: 2px solid yellow;
+    transition: background 0.1s ease-in, color 0.1s ease-in;
+    color: yellow;
+    box-shadow: 1px 1px 1px 1px yellow;
+}
+
+.trendinghashtags {
+    text-align: center;
+}
+
+/*  */
+
+.debate-section0 {
+    margin-top: 120px;
+    z-index: 1;
+}
+
+.debate-section1 {
+    width: 350px;
+    margin: auto;
+    height: 410px;
+    margin-top: -150px;
+}
+
+.debate-section2 {
+    margin-top: 10px;
+    z-index: -1;
+}
+
+.debate {
+    width: 350px;
+    margin: auto;
+    height: 410px;
+    background: #000;
+}
+
+.debates-div {
+    margin: 10px;
+    display: inline-block;
+    width: 350px;
+    height: 410px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 5px 0 0 rgba(0,0,0,.55);
+}
+
+/*  1st debate */
+
+.debates1 {
+    width: 350px;
+    height: 410px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 5px 0 0 rgba(0,0,0,.55);
+}
+
+/*  debate on the right(third debate) */
+
+.debates3 {
+    width: 33%;
+    float: right;
+    height: 410px;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.debates-content {
+    width: 80%;
+    padding: 20px 0 20px 0;
+    margin: auto;
+}
+
+.debates1 img, .debates2 img, .debates3 img {
+    width: 100px;
+}
+
+.debates-left {
+    width: 74%;
+    float: left;
+}
+
+.debates-right {
+    width: 26%;
+    float: right;
+}
+
+.debates-left--left {
+    width: 35%;
+    float: left;
+}
+
+.debates-left--right {
+    width: 53%;
+    float: right;
+    color: red;
+    padding-top: 38px;
+}
+
+.debate-topic {
+    font-size: 20px;
+}
+
+.debate-main {
+    width: 100%;
+}
+
+.team {
+    width: 50%;
+    float: left;
+}
+
+.teamA-name {
+    color: #006DF0;
+    font-size: 22px;
+}
+
+.teamB-name {
+    color: #006DF0;
+    font-size: 22px;
+}
+
+.squad-name {
+    font-size: 20px;
+}
+
+.live-score {
+    font-size: 15px;
+    color: darkgrey;
+}
+
+.scoreA {
+    padding-top: 20px;
+    height: 100px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.scoreB {
+    height: 100px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.scoreA-text {
+    background-color: rgb(55, 63, 167);
+    color: white;
+    padding: 20px 15px 20px 15px;
+    border-radius: 50px;
+}
+
+.scoreB-text {
+    background-color: rgb(214, 95, 48);
+    padding: 20px 15px 20px 15px;
+    border-radius: 30px;
+    color: white;
+}
