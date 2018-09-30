@@ -83,13 +83,18 @@ header a:hover {
 }
 
 .header--right .search-div {
-    width: 75%;
+    width: 25%;
     float: left;
+    margin: 8px 0 0 179px;
 }
-
+.ui-widget{
+    border-radius: 10px;
+    background-color: white;;
+}
 .header--right .user-div {
     width: 25%;
     float: right;
+    margin: -12px 9px 0 0;
 }
 
 .header--right button {
@@ -99,9 +104,86 @@ header a:hover {
 }
 
 .header--right input {
+    margin-right: 300px;
     border: none;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    width:1200px;
+    margin-left:-1000px;
+    font-size: 50px;    
+}
+
+.user-menu{
+    box-shadow: 1px 2px 2px 1px rgb(83, 80, 80);
+    padding: 10px 12px 8px 0;
+    margin: 48px 6px 0px 217px;
+    border-radius:3px;
+    background: rgb(239, 243, 245);
+
+}
+#user-menu1{
+    text-align: center;
+    margin:2px 0 2px 20px;
+    padding:0 -5px 0 0;
+
+}
+#user-menu1:hover{
+    background-color:rgb(117, 117, 117);
+    border-radius:5px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+#user-menu2 #setting-img  {
+  float: left;
+  text-align: center;
+  background: rgb(134, 141, 133);
+  padding:1px 10px 1px 10px;
+  width:45px;
+  margin-left:8px;
+}
+#user-menu2 #setting-img:hover{
+    background-color:rgb(65, 63, 63);
+    border-radius:10px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+#user-menu2 #squad-button  {
+  float: right;
+  padding:8px;
+  color:white;
+  text-align: center;               
+  font-size:25px;
+  width:45px;
+  background-color:#dd493e;
+  margin-left:5px; 
+}
+#user-menu2 #squad-button:hover{
+    border-radius:10px;
+    transition: background 0.5s ease, color 0.5s ease;
+    background-color: #bd3c00
+}
+
+#user-menu2 button{
+    color:white;
+    padding:2px 0 2px 0;
+    font-size:10px;
+    border-radius:25px;
+ 
+}
+
+#user-menu3{
+    margin-left:5px;
+}
+#user-menu3 button{
+    padding:10px;
+    background: #db5314;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 3px;
+    width:150px;
+}
+#user-menu3 button:hover{
+    transition: background 0.5s ease, color 0.5s ease;
+    background:#b33d34;
 }
 
 .trending-main {
