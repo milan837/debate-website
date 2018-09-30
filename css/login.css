@@ -90,7 +90,7 @@ a {
     transition: background .2s ease, color .2s ease;
 }
 
-.form-login-btn {
+.form-login-btn, .form-login-btn a {
     color: white;
     border-radius: 5px;
     border: none;
@@ -121,6 +121,7 @@ a {
 /* checkbox */
 
 input[type=checkbox]+label {
+    width: 25px;
     display: block;
     margin-left: -200px;
     cursor: pointer;
@@ -153,7 +154,7 @@ input[type=checkbox]:checked+label:before {
     color: white;
     border-color: rgb(9, 63, 129);;
 }
-.checkbox--remember-me{
+#checkbox--remember-me{
     
     height: 3px;
     padding-right: 18px;

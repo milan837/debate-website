@@ -7,11 +7,51 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Debate</title>
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="./css/foxholder.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
-    <!-- <script src="./jquery/foxholder.js"></script> -->
-    <!-- <script src="./jquery/jquery.js"></script>
-    <script src="./jquery/jquery-ui.js"></script> -->
+    <script src="./jquery/jquery.js"></script>
+    <script src="./jquery/jquery-ui.js"></script>
+    <script>
+  $( function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags,
+    })
+  } );
+  
+  $(document).ready(function(){
+      $("#search-button").click(function(){
+          $("#tags").toggle("fade");
+      });
+ });
+  $(document).ready(function(){
+      $("#user-img-id").click(function(){
+          $(".user-menu").toggle("size");
+      });
+  });
+  </script>
 </head>
 
 <body>
@@ -36,12 +76,32 @@
         <!-- Items in the right side of the header -->
         <div class="header--right">
             <div class="search-div">
-                <input type="search" placeholder="Search out what you want">
-                <button><img src="./images/search-icon.png"></button>
+                <button id="search-button" style="height:50px;width:50px; border-radius:10px;"><img src="./images/search-icon.png" ></button>
+                <div class="ui-widget" >
+                    <label for="tags" ></label>
+                    <input id="tags"style="display:none;"type="search" placeholder="Search out what you want">
+                </div>
             </div>
             <div class="user-div">
-                <img src="./images/user-icon-temp.png">
-            </div>
+            <button id="user-img-id"><img src="./images/user-icon-temp.png"></button>
+                </div>
+                <div class="user-menu" style="display:none;">
+                    <div id="user-menu1">
+                        <img src="./images/user-icon-temp.png">
+                    </div>
+                    <div id="user-menu2">
+                        <div id="setting-img">
+                            <a href="#"><button><img src="./images/icons8_Settings_30px.png"></button></a>
+                        </div>
+                        <div id="squad-button">
+                            <a href="#"><button>Squads</a></button>
+                        </div>
+                    </div>
+                    <div id="user-menu3">
+                        <button>Log Out</button>    
+                    <div>
+                </div>
+           
         </div>
 
     </header>
@@ -54,7 +114,7 @@
                     <p>Top Trending Hashtags</p>
                 </div>
                 <div class="trendinghashtags">
-                    <button> #Hashtag1</button>
+                    <button class="hashtags"> #Hashtag1</button>
                     <button> #Hashtag2</button>
                     <button> #Hashtag3</button>
                     <button> #Hashtag4</button>
@@ -74,9 +134,9 @@
 
 <center>
     <div class="main_div">
-    <?php  for($i=0; $i<15; $i++){ ?>
-                    <div class="debates-div">
-                        <div class="debates1">
+    <?php  for($i=0; $i<20; $i++){ ?>
+        <a href="chatbox.php">  <div class="debates-div">
+                       <div class="debates1">
                             <div class="debates-content">
                                 <div class="debates-left">
                                     <div class="debates-left--left">
@@ -119,8 +179,10 @@
                                     </div>
                                 </div>
                             </div>
-    </div>
+                        
+                    </div>
             </div>
+            </a>
 
     <?php } ?> 
     </div>
