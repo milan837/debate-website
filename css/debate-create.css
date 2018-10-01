@@ -1,0 +1,54 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #2b5876;
+}  
+.debatediv{
+    background-color: white;
+    width:30%;
+    height:250px;
+    padding:35px;
+    text-align:center;
+    margin-top: 150px;
+    margin-left: 450px;
+    border:none;
+    border-radius:5px;
+    box-shawdow: 0px 1px 1px 1px rgb(182, 192, 192);
+
+}
+h1{
+    margin-top: -25px;
+}
+.input{
+    width: 70%;
+    padding: 5px;
+    margin:1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 15px;
+    border: none;
+    border-radius:2px;
+    box-shadow: 0px 1px 1px 1px rgb(182, 192, 192);
+}
+p{
+    font-weight:bold;
+}
+.userinput{
+    width: 70%;
+    padding: 5px;
+    margin:none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 15px;
+    border: none;
+    border-radius:2px;
+    box-shadow: 0px 1px 1px 1px rgb(182, 192, 192);
+}
+.submit-input{
+    width:75%;
+    height:40px;
+    padding:10px;
+    margin:10px;
+    background-color: #2b5876;
+    color:white;
+    font-weight:bold;
+}

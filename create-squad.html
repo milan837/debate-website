@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Create Squad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="create-squad.css" />
+    <script>
+        function show() {
+            document.getElementById('disp').style.display = 'block';
+        }
+        function hide() {
+            document.getElementById('disp').style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="squaddiv">
+        <h1>Create my Squad</h1>
+        <input type="name" placeholder="Squad-name" class="input">
+        <input type="name" placeholder="Squad-Category" class="input">
+        <input type="submit" value="Create new Squad" class="submit-input" onClick="show()">
+
+    </div>
+    <div class="block" id="disp">
+        <div class="squadclass animate">
+            <div class="close" onClick="hide()">+</div>
+            <img src="a.jpg" class="image">
+            <h1>Add your squad </h1>
+            <input type="text" placeholder="Username" class="input">
+            <input type="submit" placeholder="Create New Squad" class="submit-input">
+        </div>
+    </div>
+</body>
+
+</html>
