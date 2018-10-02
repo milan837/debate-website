@@ -1,0 +1,160 @@
+/*  */
+
+.debate-section0 {
+    margin-top: 120px;
+    z-index: 1;
+}
+
+.debate-section1 {
+    width: 350px;
+    margin: auto;
+    height: 410px;
+    margin-top: -150px;
+}
+
+.debate-section2 {
+    margin-top: 10px;
+    z-index: -1;
+}
+
+.debate {
+    width: 350px;
+    margin: auto;
+    height: 410px;
+    background: #000;
+}
+
+.debates-div {
+    margin: 10px;
+    display: inline-block;
+    width: 350px;
+    height: 410px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 5px 0 0 rgba(0,0,0,.55);
+}
+
+/*  1st debate */
+
+.debates1 {
+    width: 350px;
+    height: 410px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 5px 0 0 rgba(0,0,0,.55);
+}
+.debates-content {
+    width: 80%;
+    padding: 20px 0 20px 0;
+    margin: auto;
+}
+
+.debates1 img{
+    width: 100px;
+}
+
+.debates-left {
+    width: 74%;
+    float: left;
+}
+
+.debates-right {
+    width: 26%;
+    float: right;
+}
+
+.debates-left--left {
+    width: 35%;
+    float: left;
+}
+
+.debates-left--right {
+    width: 53%;
+    float: right;
+    color: red;
+    padding-top: 38px;
+}
+
+.debate-topic {
+    font-size: 20px;
+}
+
+.debate-main {
+    width: 100%;
+}
+
+.team {
+    width: 50%;
+    float: left;
+}
+
+.teamA-name {
+    color: #006DF0;
+    font-size: 22px;
+}
+
+.teamB-name {
+    color: #006DF0;
+    font-size: 22px;
+}
+
+.squad-name {
+    font-size: 20px;
+}
+
+.live-score {
+    font-size: 15px;
+    color: darkgrey;
+}
+
+.scoreA {
+    padding-top: 20px;
+    height: 100px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.scoreB {
+    height: 100px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.scoreA-text {
+    background-color: rgb(55, 63, 167);
+    color: white;
+    padding: 20px 15px 20px 15px;
+    border-radius: 50px;
+}
+
+.scoreB-text {
+    background-color: rgb(214, 95, 48);
+    padding: 20px 15px 20px 15px;
+    border-radius: 30px;
+    color: white;
+}
+.debate-footer{
+    float:right;
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    margin-left:55px;
+    
+}
+.debate-footer button{
+    padding:20px 20px 20px 20px;;
+    border-radius:50%;
+    color:whitesmoke;
+    background-color:#EF5F34;
+    border:none;
+    font-size:35px;
+    font-weight: bold;
+    box-shadow:0px 0px 1px 2px gray;
+}
+.debate-footer button:hover{
+    background-color:rgb(143, 39, 7);
+    transition: background 0.58s ease-in-out, color 0.58s ease-in;
+    border:3px solid gray;
+}

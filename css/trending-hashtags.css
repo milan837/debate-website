@@ -1,0 +1,37 @@
+/* trending */
+
+.trending-main {
+    width: 1550px;
+    height: 250px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    margin: auto;
+}
+
+.trending {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    width: 1550px;
+    text-align: center;
+}
+
+.trendinghashtags button {
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px 15px 13px 20px;
+    border: 2px solid snow;
+    background: none;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.trendinghashtags button:hover {
+    border: 2px solid yellow;
+    transition: background 0.1s ease-in, color 0.1s ease-in;
+    color: yellow;
+    box-shadow: 1px 1px 1px 1px yellow;
+}
+
+.trendinghashtags {
+    text-align: center;
+}
