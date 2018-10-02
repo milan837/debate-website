@@ -226,8 +226,12 @@ header a:hover {
 
 /*  */
 .aside-main-container {
-    margin-left: 300px;
     margin-top: -100px;
+    position: fixed;
+}
+.aside-main-container2 {
+    margin-left: 300px;
+    margin-top: -50px;
 }
 .aside-main-container button{
     padding:9px;
@@ -235,14 +239,30 @@ header a:hover {
    font-weight: bold;
    border-radius: 0 25px 25px 0;
    color:white;
-   background-color:orangered;
+   background-color:rgb(47, 158, 171);
    border: none;
 }
+
+.aside-main-container2 button{
+    padding:9px;
+   font-size:20px;
+   font-weight: bold;
+   border-radius: 0 25px 25px 0;
+   color:white;
+   background-color:rgb(47, 158, 171);
+   border: none;
+   margin-top: 116px;
+}
 .aside-main-container button:hover{
-    box-shadow:0 1px 1px 0 red;
-    background: black;
-    color:rgb(235, 12, 12);
     transition: background 0.9s ease, color 0.9s ease;
+    background: linear-gradient(to top, #56ccf2, #2f80ed);
+    color:wheat;
+}
+.aside-main-container2 button:hover{
+    transition: background 0.9s ease, color 0.9s ease;
+    background: linear-gradient(to top, #56ccf2, #2f80ed);
+    color:wheat;
+    
 }
 /* The switch - the box around the slider */
 .switch {
@@ -306,6 +326,8 @@ header a:hover {
 /* online users */
 
 .online-users{
+    font-size: 16px;
+    color:white;
     float:left;
 }
 .online-status{
@@ -314,8 +336,16 @@ header a:hover {
     margin-top:-48px;
 }
 
-.full-aside{
-    background-color:blue;
+.online-contacts{
+    color: white;
+    margin: 10px;
+    padding: 1px 138px 5px 20px;
+    box-shadow: 0px 0px 1px 1px grey;
+}
+#toggle-off-text{
+    color:whitesmoke;
+    font-size:33px;
+    margin-left:5px;
 }
 aside{
     
@@ -323,15 +353,15 @@ aside{
     float:left;
 }
 .aside-full-container{
-    margin-top: -164px;
-    background-color: red;
+    border-radius: 5px;
+    margin-top: -227px;
+    background: linear-gradient(to top, #56ccf2, #2f80ed);
     width: 300px;
     height:450px;
 }
 .aside-container1{
     margin: 32px;
 }
-
 
 /*  */
 

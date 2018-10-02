@@ -19,6 +19,7 @@ body {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
 }
 #checkbox--remember-me{
@@ -34,6 +35,7 @@ a {
     border-radius: 5px;
     text-align: center;
     background: whitesmoke;
+    height: 575px;
 }
 @media(max-width:450px){
     .login-form{
@@ -49,7 +51,6 @@ a {
     width: 100%;
     background-color: #2951a5;
     padding: 15px;
-    margin-bottom: 25px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
 }
 
@@ -77,9 +78,12 @@ a {
     text-align: center;
     padding: 12px -50px 0 0;
     margin: 0.6rem 22px 8px 0;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
-
+.login-input:hover{
+    box-shadow: 1px 1px 1px 1px rgb(156, 208, 220);
+    transition: background 0.2s ease, color 0.9s ease;
+}
 #forgot-password {
     color: #006DF0;
     margin: 10px 0 0 194px;
@@ -160,4 +164,100 @@ input[type=checkbox]:checked+label:before {
     padding-right: 18px;
     margin-top: 0px;
 
+}
+
+/* Create account */
+
+.create-account {
+    border-radius: 5px;
+    background-color: white;
+    float: right;
+    margin: -38rem 26rem -35rem 1rem;
+    width: 388px;
+    height: 555px;
+    padding: 20px 0px 0 10px;
+    text-align: center;
+}
+
+.create-account h2{
+    font-size:30px;
+    font-weight:bold;
+}
+.create-form input{
+    border-radius:5px;
+    padding:10px;
+    margin:5px;
+    width:320px;
+    border:none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    text-align:center;
+    font-size:16px;
+}
+.create-form input:hover{
+    box-shadow: 1px 1px 1px 1px rgb(156, 208, 220);
+    transition: background 0.9s ease, color 0.9s ease;
+}
+.create-form button{
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size:24px;
+    width: 350px;
+    background-color: #FF6E63;
+    padding: 15px;
+    margin: 25px 0 16px -7px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16)
+}
+#login-back {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 245px;
+    background-color: #e73c2f;
+    padding: 9px;
+    margin: 10px 0 16px -124px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+#agree-terms checkbox{
+    height:46px;
+    width:400px;
+    margin-left:1rem;
+}
+#login-back:hover, .create-form button:hover{
+    transition: background .2s ease, color .2s ease;
+    background-color: #dd493e;
+}
+.log-email{
+    text-align:center;
+    margin-top:20rem;
+}
+.log-email--form input{
+    padding:20px;
+    width:450px;
+    border:none;
+    font-size:24px;
+    border-radius:15px;
+}
+.log-email--form input:hover{
+    box-shadow:5px 5px 5px 5px  rgb(83, 83, 233);
+    transition: background .9s ease, color .9s ease;
+}
+.log-email--form button{
+    padding:15px;
+    border:none;
+    background-color: #e73c2f;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:0.5px .5px .5px 0.5px rgb(228, 97, 97);
+    color:white;
+    font-size:24px;
+    font-weight: bold;
+}
+.log-email--form button:hover{
+    background-color: #cc6058;
+    transition: background .9s ease, color .9s ease;
+}
+#go-back-login{
+    float:left;
+    margin-top:-20rem;
 }

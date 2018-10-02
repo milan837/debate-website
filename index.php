@@ -51,6 +51,36 @@
                 $(".user-menu").toggle("size");
             });
         });
+
+        $(document).ready(function () {
+            $('.aside-main-container').click(function () {
+                $('.aside-full-container').toggle("slide");
+            });
+        });
+
+        $(document).ready(function () {
+            $('.aside-main-container2').click(function () {
+                $('.aside-full-container').toggle("slide");
+            });
+        });
+
+        $(document).ready(function () {
+            $('input[type="checkbox"]').click(function () {
+                if ($(this).prop("checked") == false) {
+                    $('.toggle-off-div').toggle("fade");
+                }
+
+            });
+        });
+
+        $(document).ready(function () {
+            $('input[type="checkbox"]').click(function () {
+                if ($(this).prop("checked") == true) {
+                    $('.online-contacts-div').toggle("fade");
+                }
+            });
+        });
+
     </script>
 </head>
 
@@ -114,50 +144,53 @@
                 <p>Top Trending Hashtags</p>
             </div>
             <div class="trendinghashtags">
-                <button class="hashtags"> #Hashtag1</button>
-                <button> #Hashtag2</button>
-                <button> #Hashtag3</button>
-                <button> #Hashtag4</button>
-                <button> #Hashtag5</button>
-                <button> #Hashtag6</button>
-                <button> #Hashtag7</button>
-                <button> #Hashtag8</button><br>
-                <button> #Hashtag9</button>
-                <button> #Hashtag10</button>
-                <button> #Hashtag11</button>
-                <button> #Hashtag12</button>
-                <button> #Hashtag13</button>
-                <button> #Hashtag14</button>
+                <?php  for($i=0; $i<15; $i++){ ?>
+                <button class="hashtags"> #football</button>
+                <?php } ?>
             </div>
         </div>
     </section>
+    <div class="aside-main-container">
+        <button>Online</button>
+    </div>
 
+    <!-- Aside bar/online -->
     <aside>
         <div class="full-aside">
-            <div class="aside-main-container">
-                <button>Online ></button>
-            </div>
-            <div class="aside-full-container">
-                    <div class="aside-container1">
-                            <div>
-                                <p class="online-users">25 Friends are active</p>
-                            </div>
-                            <div class="online-status">
-                                <label class="switch">
-                                    <input type="checkbox">
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                    </div>
-                    <div style="display: inline-block"  class="aside-container2"> 
-                            <div>
 
-                            </div>
+            <div class="aside-full-container" style="display:none;">
+
+                <div class="aside-container1">
+                    <div>
+                        <p class="online-users">25 Friends are active</p>
                     </div>
-                    
+                    <div class="online-status">
+                        <label class="switch">
+                            <input id="availability" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="aside-main-container2">
+                    <button> Online</button>
+                </div>
+                <div style="display: inline-block" class="aside-container2">
+                    <?php  for($i=0; $i<3; $i++){ ?>
+                    <div class="online-contacts-div" style="display:none;">
+                        <h3 class="online-contacts">Some People</h3>
+                        <?php } ?>
+                    </div>
+
+                    <div class="toggle-off-div" style="display:block">
+                        <p id="toggle-off-text">Turn on your online status</p>
+                    </div>
+                </div>
             </div>
         </div>
     </aside>
+
+    <!-- Center -->
+
     <center>
         <div class="main_div">
             <?php  for($i=0; $i<15; $i++){ ?>
