@@ -35,7 +35,7 @@ header {
     position: fixed;
     z-index: 1;
     top: 0;
-    width: 100%;
+    width: 1550px;
     height: 120px;
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     margin: auto;
@@ -56,23 +56,23 @@ header a:hover {
 }
 
 .header--left {
-    width: 75%;
+    width: 1162px;
     float: left;
 }
 
 .header--right {
-    width: 25%;
+    width: 388px;
     float: right;
     padding: 20px 0 24px 0;
 }
 
 .header--left-left {
-    width: 10%;
+    width: 116.2px;
     float: left;
 }
 
 .header--left-right {
-    width: 90%;
+    width: 1045px;
     float: right;
 }
 
@@ -116,7 +116,7 @@ header a:hover {
 .user-menu{
     box-shadow: 1px 2px 2px 1px rgb(83, 80, 80);
     padding: 10px 12px 8px 0;
-    margin: 48px 6px 0px 217px;
+    margin: 49px 29px 0px 181px;
     border-radius:3px;
     background: rgb(239, 243, 245);
 
@@ -185,9 +185,10 @@ header a:hover {
     transition: background 0.5s ease, color 0.5s ease;
     background:#b33d34;
 }
+/* trending */
 
 .trending-main {
-    width: 100%;
+    width: 1550px;
     height: 250px;
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     margin: auto;
@@ -197,7 +198,7 @@ header a:hover {
     font-weight: bold;
     color: white;
     font-size: 20px;
-    width: 100%;
+    width: 1550px;
     text-align: center;
 }
 
