@@ -14,12 +14,7 @@ input, button:focus {
 body {
     margin: auto;
 }
-/* div for debates */
-.main_div {
-    margin-top: 10px;
-    width: 1200px;
-    min-height: 500px;
-}
+
 
 /* for all buttons */
 button {

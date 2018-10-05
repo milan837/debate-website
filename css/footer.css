@@ -1,0 +1,21 @@
+footer {
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 39rem 0 0 0;
+}
+
+.debate-footer button {
+    border: none;
+    padding: 15px;
+    background-color: #EF5F34;
+    color: white;
+    font-size: 24px;
+    font-weight:bold;
+    border-radius:50px 50px 0 50px;
+}
+.debate-footer button:hover{
+    background-color: rgb(221, 130, 103);
+    transition: background 0.9s ease, color 0.9s ease;
+}

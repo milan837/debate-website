@@ -1,6 +1,6 @@
 
 
-    <footer class="debate-footer">
+    <footer>
         <div class="debate-footer">
             <button>Create <br>debate</button>
         </div>
