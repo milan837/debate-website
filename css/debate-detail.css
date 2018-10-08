@@ -1,0 +1,210 @@
+.trendinghashtags button {
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px 15px 13px 20px;
+    border: 2px solid snow;
+    background: none;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.trendinghashtags button:hover {
+    border: 2px solid yellow;
+    transition: background 0.1s ease-in, color 0.1s ease-in;
+    color: yellow;
+    box-shadow: 1px 1px 1px 1px yellow;
+}
+
+.debate-detail-div {
+    width: 1515px;
+    height:280px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    margin: 120px 0 0 0;
+    color:white;
+}
+.debate-detail-upperContents{
+    margin: 0 10px 0 32px;
+}
+.join-debate{
+    margin: -39px 0 0px 59rem;
+}
+.join-debate button{
+    padding:10px;
+    width:150px;
+    color:white;
+    font-size:20px;
+    background:#FF6E63;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 0 0 1px 1px gray;
+}
+.join-debate button:hover{
+    background: rgb(220, 66, 55);
+    font-weight: bold;
+    transition:background 0.9s, color 0.9s;
+    box-shadow: 0 0 1px 1px white;
+}
+center {
+    width: 1000px;
+}
+h3{
+    font-size:30px;
+}
+.teamA-total{
+    margin:0 0 0 0;
+}
+.teamA-total-div{
+    margin: -36px 29px 3px -2px;
+}
+.teamA-details {
+    float: left;
+    width: 400px;
+    margin:0 0 0 250px;
+    border-radius: 5px;
+}
+.total-members{
+    float: right;
+    font-size: 20px;
+    font-weight:bold;
+    margin: -2px 91px 0 -86px;
+}
+.debate-members {
+   border: 1px 1px 1px 1px gray;
+   border-radius:7px;
+}
+.debate-members--users{
+    border: 1px 1px 1px 1px solid gray; 
+    border-radius:7px;
+    margin: 17px 10px 8px 21px;
+}
+.debate-members img {
+    height:85px;
+    width:85px;
+    margin: 10px 5px 5px -150px;
+    border-radius:50px;
+}
+.user-name{
+    font-weight:bold;
+    margin: 23px -20px 5px -111px;
+    font-size:25px;
+}
+#totalParticipation{
+    color:black;
+    font-weight: 100;
+    margin: -7px -20px -8px -111px;
+}
+.total-debate-part{
+    background:#FF6E63;
+    padding:10px;
+    width:20px;
+    color:white;
+    font-weight: bold;
+    border-radius:50px;
+    margin: -44px -156px 4px 0;
+}
+.debate-members .badges-user-div {
+    margin: -100px 5px 5px 10px;
+}
+
+.debate-members .level-user-div {
+    margin: -75px 5px 5px 150px;
+}
+#add-to-squad{
+    padding:10px;
+    margin:10px;
+    width:200px;
+    background:#FF6E63;
+    border:none;
+    color:white;
+    font-size:20px;
+    border-radius:3px;
+}
+#add-to-squad:hover{
+    background:rgb(240, 69, 57);
+    transition:background 0.9s ease, color 0.9s ease;
+    font-weight:bold;
+    box-shadow: 0 0 1px 1px white;
+}
+
+.teamB-details {
+    color:black;
+    float: right;
+    width: 400px;
+    margin: -337px -518px 0 0;
+}
+.teamB-total{
+    margin:0 0 0 0;
+}
+.teamB-total-div{
+    margin: -36px 29px 3px -2px;
+}
+
+.teamA-details2 {
+    float: left;
+    width: 400px;
+    margin:0 0 0 250px;
+    border-radius: 5px;
+}
+.total-members2{
+    float: right;
+    font-size: 20px;
+    font-weight:bold;
+    margin: -2px 91px 0 -86px;
+}
+.debate-members2 {
+   border: 1px 1px 1px 1px gray;
+   border-radius:7px;
+}
+.debate-members--users2{
+    border: 1px 1px 1px 1px solid gray; 
+    border-radius:7px;
+    margin: 17px 10px 8px 21px;
+}
+.debate-members2 img {
+    height:85px;
+    width:85px;
+    margin: 10px 5px 5px -150px;
+    border-radius:50px;
+}
+.user-name2{
+    font-weight:bold;
+    margin: 23px -20px 5px -111px;
+    font-size:25px;
+}
+#totalParticipation2{
+    color:black;
+    font-weight: 100;
+    margin: -7px -20px -8px -111px;
+}
+.total-debate-part2{
+    background:#FF6E63;
+    padding:10px;
+    width:20px;
+    color:white;
+    font-weight: bold;
+    border-radius:50px;
+    margin: -44px -156px 4px 0;
+}
+.debate-members2 .badges-user-div2 {
+    margin: -100px 5px 5px 10px;
+}
+
+.debate-members2 .level-user-div2 {
+    margin: -75px 5px 5px 150px;
+}
+#add-to-squad2{
+    padding:10px;
+    margin:10px;
+    width:200px;
+    background:#FF6E63;
+    border:none;
+    color:white;
+    font-size:20px;
+    border-radius:3px;
+}
+#add-to-squad2:hover{
+    background:rgb(240, 69, 57);
+    font-weight:bold;
+    box-shadow: 0 0 1px 1px white;
+    transition:background 0.9s ease, color 0.9s ease;
+}

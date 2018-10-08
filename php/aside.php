@@ -1,8 +1,11 @@
 
     <!-- Aside bar/online -->
     <aside>
+    
         <div class="full-aside">
-
+        <div class="aside-main-container">
+                    <button> Online</button>
+                </div>
             <div class="aside-full-container" style="display:none;">
 
                 <div class="aside-container1">
@@ -19,6 +22,9 @@
                 <div class="aside-main-container2">
                     <button> Online</button>
                 </div>
+                <div class="toggle-off-div" style="display:block">
+                        <p id="toggle-off-text">Turn on your online status</p>
+                    </div>
                 <div style="display: inline-block" class="aside-container2">
                     <?php  for($i=0; $i<3; $i++){ ?>
                     <div class="online-contacts-div" style="display:none;">
@@ -26,9 +32,7 @@
                         <?php } ?>
                     </div>
 
-                    <div class="toggle-off-div" style="display:block">
-                        <p id="toggle-off-text">Turn on your online status</p>
-                    </div>
+                    
                 </div>
             </div>
         </div>

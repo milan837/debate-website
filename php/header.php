@@ -3,16 +3,16 @@
         <div class="header--left">
             <div class="header--left-left">
                 <!-- title -->
-                <h3><a href="#">Debate</a></h3>
+                <h3><a href="./index.php">Debate</a></h3>
             </div>
             <!-- header top-navigation bar -->
             <div class="header--left-right">
                 <ul class="categories">
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Entertainment</a></li>
-                    <li><a href="#">Movies</a></li>
-                    <li><a href="#">Politics</a></li>
-                    <li><a href="#">All Categories</a></li>
+                    <li><a href="./categories-main.php">Sports</a></li>
+                    <li><a href="./categories-main.php">Entertainment</a></li>
+                    <li><a href="./categories-main.php">Movies</a></li>
+                    <li><a href="./categories-main.php">Politics</a></li>
+                    <li><a href="./categories-main.php">All Categories</a></li>
                 </ul>
             </div>
         </div>

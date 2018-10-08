@@ -3,7 +3,7 @@
     <center>
         <div class="main_div">
             <?php  for($i=0; $i<15; $i++){ ?>
-            <a href="debate-detail.php">
+            <a href="ongoing-debate-detail.php">
                 <div class="debates-div">
                     <div class="debates1">
                         <div class="debates-content">
@@ -20,13 +20,13 @@
                                 <img src="./images/icons8_Male_User_50px.png"><br>
                             </div>
 
-                            <p class="debate-topic">#messiVronaldo in Champions League</p><br>
+                            <p class="debate-topic">Messi Vs Ronaldo in Champions League</p><br>
 
                             <div class="debate-main">
 
                                 <div class="team">
                                     <text class="teamA-name">Team A</text><br>
-                                    <text class="squad-name">Messi Guys</text><br>
+                                    <text class="squadA-name">Messi Guys</text><br>
                                     <text class="live-score">Live Scored</text><br><br>
 
                                 </div>
@@ -39,7 +39,7 @@
 
                                 <div class="team">
                                     <text class="teamB-name">Team B</text><br>
-                                    <text class="squad-name">Ronaldo Guys</text><br>
+                                    <text class="squadB-name">Ronaldo Guys</text><br>
                                     <text class="live-score">Live Scored</text><br>
 
                                 </div>

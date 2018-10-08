@@ -4,14 +4,14 @@
     width: 1550px;
     height: 250px;
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    margin: auto;
+    
 }
 
 .trending {
     font-weight: bold;
     color: white;
     font-size: 20px;
-    width: 1550px;
+    width: 1000px;
     text-align: center;
 }
 
