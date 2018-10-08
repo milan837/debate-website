@@ -1,6 +1,6 @@
 <?php for($j=0;$j<10;$j++){ ?>
 <div class="categories--debates-main_div">
-
+    <a href="">
     <div class="categories-contents">
             <h2 class="category-title">Football</h2>
             <div class="categories-img-div">
@@ -14,6 +14,6 @@
                 <?php } ?>
     </div>
     </div>
-    
+                </a>
 </div>
 <?php } ?>
